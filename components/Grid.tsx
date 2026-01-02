@@ -10,7 +10,7 @@ import {
 
 export function Grid() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-2">
+    <div className="max-w-4xl mx-auto px-4 -my-1">
       <h2 className="text-4xl font-bold text-white mb-10 text-center tracking-tight">
         Technical <span className="text-cyan-500">Arsenal</span>
       </h2>

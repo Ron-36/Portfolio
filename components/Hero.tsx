@@ -18,7 +18,7 @@ const Hero = () => {
       <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
 
       {/* TEXT AREA (ON GRID) */}
-      <div className="relative z-10 h-[40vh] flex flex-col items-center justify-center gap-3">
+      <div className="relative mt-50 z-10 h-[40vh] flex flex-col items-center justify-center gap-3">
         
         <h1 className="text-2xl sm:text-7xl font-bold text-white">
           Frontend Developer
