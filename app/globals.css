@@ -1,10 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-  /* 1. Register the animation name */
-  --animate-spotlight: spotlight 2s ease .75s 1 forwards;
+  /* 1. Register Custom Animations */
+  --animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
+  --animate-scroll: scroll var(--animation-duration, 40s) var(--animation-direction, backward) linear infinite;
 
-  /* 2. Define the keyframes inside the theme block */
+  /* 2. Define Keyframes (standard CSS inside @theme) */
   @keyframes spotlight {
     0% {
       opacity: 0;
@@ -16,20 +17,21 @@
     }
   }
 
-  /* Grid Pattern */
-  --bg-grid-white: linear-gradient(to right, #ffffff10 1px, transparent 1px),
-                   linear-gradient(to bottom, #ffffff10 1px, transparent 1px);
-  
+  @keyframes scroll {
+    to {
+      transform: translate(calc(-50% - 0.5rem));
+    }
+  }
 
-
-  /* Set the sizes for the patterns */
-  --bg-size-grid: 20px 20px;
+  /* 3. Custom Background Utilities */
+  --background-image-grid-white: linear-gradient(to right, #ffffff10 1px, transparent 1px),
+                                 linear-gradient(to bottom, #ffffff10 1px, transparent 1px);
   
+  --background-size-grid: 20px 20px;
 }
 
 @layer base {
   body {
-    background-color: #000; /* Forces the page to stay black */
-    color: white;           /* Sets default text to white */
+    @apply bg-black text-white;
   }
 }
