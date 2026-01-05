@@ -12,7 +12,7 @@ export const projects = [
     des: "An AI-powered Netflix clone using TMDB for real-time streaming data and Gemini/OpenAI for intelligent movie search results.",
     img: "/project1.png",
     iconLists: ["/react.png", "/tailwind.png", "/javascript.png", "/redux.png","/router.png", "/firebase.png"],
-    link: "/ui.earth.com",
+    link: "https://netflixgpt-34ebe.web.app/",
   },
   {
     id: 2,
@@ -79,17 +79,12 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "https://raw.githubusercontent.com/adrianhajdin/portfolio/aa3fc6de5066925313070cbb5bdce9d85cc89241/public/git.svg",
-    link: "/ui.yoom.com",
-  },
-  {
-    id: 2,
-    img: "https://raw.githubusercontent.com/adrianhajdin/portfolio/aa3fc6de5066925313070cbb5bdce9d85cc89241/public/insta.svg",
-    link: "/ui.yoom.com",
+    img: "/github.png",
+    link: "https://github.com/Ron-36",
   },
   {
     id: 3,
     img: "/whatsapp.png",
-    link: "/ui.yoom.com",
+    link: "https://wa.me/+919558625887?text=I'm%20interested%20in%20your%20services",
   },
 ];

@@ -16,6 +16,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Ronak's Portfolio",
   description: "Modern & Minimalist Frontend Developer Portfolio",
+  icons:{
+    icon:[
+      {url:'/ronak_bitmoji.png'}
+    ]
+  }
 };
 
 export default function RootLayout({

@@ -7,12 +7,10 @@ import { socialMedia } from '@/data/data'
 const Footer = () => {
   return (
     <footer className='w-full pb-10 ' id="contact">
-        <div className='w-full absolute left-0 '>
-            <img src="https://raw.githubusercontent.com/adrianhajdin/portfolio/aa3fc6de5066925313070cbb5bdce9d85cc89241/public/footer-grid.svg" alt=""  className='w-full h-full opacity-50'/>
-        </div>
+        
 
-        <div className='flex flex-col items-center'>
-            <h1 className=" lg:max-w-[45vw] text-6xl">
+        <div className='flex flex-col items-center '>
+            <h1 className=" lg:max-w-[45vw] text-6xl md:ml-10">
           Ready to take <span className="text-purple-400">your</span> digital
           presence to the next level?
         </h1>
@@ -38,7 +36,7 @@ const Footer = () => {
             <div
               key={info.id}
               className="w-10  h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
-            > <a href={info.link}>
+            > <a href={info.link} target='_blank'>
               <img src={info.img} alt="icons" width={20} height={20} />
               </a>
             </div>
