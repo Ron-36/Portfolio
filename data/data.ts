@@ -32,13 +32,11 @@ export const testimonials = [
     quote:
       "Working with you has been a revelation for our team’s workflow. Despite being early in your career, your grasp of React and Tailwind is impressive. You tackle complex UI challenges with a level of maturity rarely seen in junior developers. You are definitely a highly talented rising star in modern tech.",
     name: "Dhruvik",
-    title:null
   },
   {
     quote:
       "Your ability to translate Figma designs into pixel-perfect code is outstanding. As a developer, your attention to detail regarding responsive layouts and smooth animations is remarkable. You consistently deliver high-quality work ahead of schedule, making you an invaluable asset to any frontend project we undertake today",
     name: "Manali",
-    title:null
   },
   {
     quote:
