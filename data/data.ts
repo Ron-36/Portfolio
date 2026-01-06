@@ -20,7 +20,7 @@ export const projects = [
     des: "A comprehensive CRM streamlining sales, purchases, inventory, and finances through an integrated Kanban board and dynamic dashboard charts.",
     img: "/project2.png",
     iconLists: ["/react.png", "/tailwind.png", "/rechart.png", "/javascript.png", "/redux.png", "/router.png","/firebase.png"],
-    link: "",
+    link: "https://custofy-crm.web.app/",
   },
   
 ];
