@@ -20,7 +20,7 @@ export const projects = [
     des: "A comprehensive CRM streamlining sales, purchases, inventory, and finances through an integrated Kanban board and dynamic dashboard charts.",
     img: "/project2.png",
     iconLists: ["/react.png", "/tailwind.png", "/rechart.png", "/javascript.png", "/redux.png", "/router.png","/firebase.png"],
-    link: "/ui.yoom.com",
+    link: "",
   },
   
 ];
@@ -51,35 +51,35 @@ export const workExperience = [
     title: "Trainee/Intern",
     desc: "Mastered React fundamentals and component architecture while collaborating with senior engineers to build responsive user interfaces and debugging core frontend functionality during sprints.",
     className: "md:col-span-2",
-    thumbnail: "https://raw.githubusercontent.com/adrianhajdin/portfolio/aa3fc6de5066925313070cbb5bdce9d85cc89241/public/exp1.svg",
+    thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Software Developer",
     desc: "Engineered scalable web applications using React and Redux, optimizing performance across various browsers and integrating RESTful APIs to deliver seamless data-driven user experiences.",
     className: "md:col-span-2",
-    thumbnail: "https://raw.githubusercontent.com/adrianhajdin/portfolio/aa3fc6de5066925313070cbb5bdce9d85cc89241/public/exp2.svg",
+    thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Freelancer",
     desc: "Architected custom frontend solutions for diverse clients, transforming complex requirements into functional React applications with a focus on clean code and rapid delivery.",
     className: "md:col-span-2",
-    thumbnail: "https://raw.githubusercontent.com/adrianhajdin/portfolio/aa3fc6de5066925313070cbb5bdce9d85cc89241/public/exp3.svg",
+    thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Frontend Developer",
     desc: "Developed high-fidelity interfaces using React.js and Tailwind CSS, ensuring pixel-perfect execution of designs while maintaining high accessibility standards and optimized load speeds.",
     className: "md:col-span-2",
-    thumbnail: "https://raw.githubusercontent.com/adrianhajdin/portfolio/aa3fc6de5066925313070cbb5bdce9d85cc89241/public/exp4.svg",
+    thumbnail: "/exp4.svg",
   },
 ];
 
 export const socialMedia = [
   {
     id: 1,
-    img: "/github.png",
+    img: "/git.svg",
     link: "https://github.com/Ron-36",
   },
   {
